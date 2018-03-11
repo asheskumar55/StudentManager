@@ -1,0 +1,6 @@
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\bin\Release\AshesFramework.dll
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\bin\Release\AshesFramework.pdb
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\obj\Release\AshesFramework.csproj.CoreCompileInputs.cache
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\obj\Release\AshesFramework.dll
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\obj\Release\AshesFramework.pdb
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\obj\Release\AshesFramework.csprojResolveAssemblyReference.cache

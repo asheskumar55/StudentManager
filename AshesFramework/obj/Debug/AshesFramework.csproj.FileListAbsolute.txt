@@ -1,0 +1,12 @@
+c:\users\ashes\source\repos\StudentManager\AshesFramework\bin\Debug\AshesFramework.dll
+c:\users\ashes\source\repos\StudentManager\AshesFramework\bin\Debug\AshesFramework.pdb
+c:\users\ashes\source\repos\StudentManager\AshesFramework\obj\Debug\AshesFramework.csproj.CoreCompileInputs.cache
+c:\users\ashes\source\repos\StudentManager\AshesFramework\obj\Debug\AshesFramework.dll
+c:\users\ashes\source\repos\StudentManager\AshesFramework\obj\Debug\AshesFramework.pdb
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\bin\Debug\AshesFramework.dll
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\bin\Debug\AshesFramework.pdb
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\obj\Debug\AshesFramework.csprojResolveAssemblyReference.cache
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\obj\Debug\AshesFramework.csproj.CoreCompileInputs.cache
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\obj\Debug\AshesFramework.dll
+C:\Users\ashes\source\repos\Student Manager\AshesFramework\obj\Debug\AshesFramework.pdb
+C:\Users\ashes\source\repos\StudentManager\AshesFramework\obj\Debug\AshesFramework.csprojResolveAssemblyReference.cache

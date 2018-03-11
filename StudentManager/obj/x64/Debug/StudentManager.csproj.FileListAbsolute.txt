@@ -1,0 +1,14 @@
+C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\x64\Debug\StudentManager.exe.config
+C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\x64\Debug\StudentManager.exe
+C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\x64\Debug\StudentManager.pdb
+C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\x64\Debug\AshesFramework.dll
+C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\x64\Debug\AshesFramework.pdb
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.csprojResolveAssemblyReference.cache
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.Properties.Resources.resources
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.Screens.DashBoardForm.resources
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.Screens.LoginForm.resources
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.Screens.Templates.TemplateForm.resources
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.csproj.GenerateResource.Cache
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.exe
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\x64\Debug\StudentManager.pdb
