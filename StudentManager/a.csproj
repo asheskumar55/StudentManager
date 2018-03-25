@@ -101,12 +101,14 @@
     <Compile Include="Icons\CircularButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Icons\Encryption.cs" />
     <Compile Include="Icons\FirstUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Icons\FirstUC.Designer.cs">
       <DependentUpon>FirstUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modal\LoggedInUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screens\Branches\BranchInfoForm.cs">
@@ -151,6 +153,12 @@
     <Compile Include="Screens\Templates\TemplateForm.Designer.cs">
       <DependentUpon>TemplateForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Controls\ChangePassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\DashboardUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -190,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\Templates\TemplateForm.resx">
       <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\DashboardUC.resx">
       <DependentUpon>DashboardUC.cs</DependentUpon>

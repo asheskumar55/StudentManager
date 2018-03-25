@@ -23,3 +23,5 @@ C:\Users\ashes\source\repos\StudentManager\StudentManager\bin\Debug\EntityFramew
 C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.Screens.Templates.ModernGui.resources
 C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.Screens.Setting.SettingForm.resources
 C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.User_Controls.DashboardUC.resources
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\Debug\a.csproj.CopyComplete
+C:\Users\ashes\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.User_Controls.ChangePasswordUC.resources

@@ -11,6 +11,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using StudentManager.Modal;
+using StudentManager.Icons;
 
 namespace StudentManager.Screens
 {
@@ -19,16 +21,6 @@ namespace StudentManager.Screens
         public LogInForm()
         {
             InitializeComponent();
-        }
-
-        public string Encrypt(string value)
-        {
-            using (MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider())
-            {
-                UTF8Encoding utf8 = new UTF8Encoding();
-                byte[] data = md5.ComputeHash(utf8.GetBytes(value));
-                return Convert.ToBase64String(data);
-            }
         }
 
         private void SignInButton_Click(object sender, EventArgs e)
@@ -40,6 +32,7 @@ namespace StudentManager.Screens
                 bool IsLoginDetailsCorrect = Convert.ToBoolean(db.GetScalarValue("usp_UsersCheckLoginDetails", GetParameters())); 
                 if (IsLoginDetailsCorrect)
                 {
+                    LoggedInUser.UserName = Encryption.Encrypt(UserNameTextBox.Text);
                     this.Hide();
                     DashBoardForm df = new DashBoardForm();
                     df.Show();
@@ -57,12 +50,12 @@ namespace StudentManager.Screens
 
             DbParameter dbparam1 = new DbParameter();
             dbparam1.Parameter = "@UserName";
-            dbparam1.Value = Encrypt(UserNameTextBox.Text);
+            dbparam1.Value = Encryption.Encrypt(UserNameTextBox.Text);
             parameters.Add(dbparam1);
 
             DbParameter dbparam2 = new DbParameter();
             dbparam2.Parameter = "@Password";
-            dbparam2.Value = Encrypt(PasswordTextBox.Text);
+            dbparam2.Value = Encryption.Encrypt(PasswordTextBox.Text);
             parameters.Add(dbparam2);
 
             return parameters.ToArray();

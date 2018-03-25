@@ -15,6 +15,9 @@ namespace StudentManager.Screens.Setting
         public SettingForm()
         {
             InitializeComponent();
+            dashboardUC1.BringToFront();
+            Dashboardlbl.Text = "Dashboard";
+
         }
 
         private void Setting_Load(object sender, EventArgs e)
@@ -35,6 +38,19 @@ namespace StudentManager.Screens.Setting
         private void SwitchOffButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void DashBoardButton_Click(object sender, EventArgs e)
+        {
+            Dashboardlbl.Text = "Dashboard";
+            dashboardUC1.BringToFront();
+
+        }
+
+        private void ChangePasswordButton_Click(object sender, EventArgs e)
+        {
+            Dashboardlbl.Text = "Change Password";
+            changePasswordUC1.BringToFront();
         }
     }
 }

@@ -36,11 +36,14 @@
             this.ChangePasswordButton = new System.Windows.Forms.Button();
             this.DashBoardButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Dashboardlbl = new System.Windows.Forms.Label();
             this.SwitchOffButton = new System.Windows.Forms.Button();
             this.PanelContainer = new System.Windows.Forms.Panel();
+            this.changePasswordUC1 = new StudentManager.User_Controls.ChangePasswordUC();
+            this.dashboardUC1 = new StudentManager.User_Controls.DashboardUC();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PanelContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -111,6 +114,7 @@
             this.ChangePasswordButton.Text = "   Change Password";
             this.ChangePasswordButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ChangePasswordButton.UseVisualStyleBackColor = true;
+            this.ChangePasswordButton.Click += new System.EventHandler(this.ChangePasswordButton_Click);
             // 
             // DashBoardButton
             // 
@@ -126,6 +130,7 @@
             this.DashBoardButton.Text = "   Dashboard";
             this.DashBoardButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DashBoardButton.UseVisualStyleBackColor = true;
+            this.DashBoardButton.Click += new System.EventHandler(this.DashBoardButton_Click);
             // 
             // panel2
             // 
@@ -135,15 +140,15 @@
             this.panel2.Size = new System.Drawing.Size(576, 23);
             this.panel2.TabIndex = 0;
             // 
-            // label1
+            // Dashboardlbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(154, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Dashboard";
+            this.Dashboardlbl.AutoSize = true;
+            this.Dashboardlbl.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dashboardlbl.Location = new System.Drawing.Point(154, 20);
+            this.Dashboardlbl.Name = "Dashboardlbl";
+            this.Dashboardlbl.Size = new System.Drawing.Size(117, 23);
+            this.Dashboardlbl.TabIndex = 1;
+            this.Dashboardlbl.Text = "Dashboard";
             // 
             // SwitchOffButton
             // 
@@ -161,10 +166,29 @@
             // 
             // PanelContainer
             // 
+            this.PanelContainer.Controls.Add(this.dashboardUC1);
+            this.PanelContainer.Controls.Add(this.changePasswordUC1);
             this.PanelContainer.Location = new System.Drawing.Point(140, 56);
             this.PanelContainer.Name = "PanelContainer";
             this.PanelContainer.Size = new System.Drawing.Size(567, 308);
             this.PanelContainer.TabIndex = 2;
+            // 
+            // changePasswordUC1
+            // 
+            this.changePasswordUC1.Location = new System.Drawing.Point(0, 0);
+            this.changePasswordUC1.Name = "changePasswordUC1";
+            this.changePasswordUC1.Size = new System.Drawing.Size(567, 305);
+            this.changePasswordUC1.TabIndex = 1;
+            // 
+            // dashboardUC1
+            // 
+            this.dashboardUC1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dashboardUC1.Location = new System.Drawing.Point(0, 0);
+            this.dashboardUC1.Name = "dashboardUC1";
+            this.dashboardUC1.Size = new System.Drawing.Size(567, 308);
+            this.dashboardUC1.TabIndex = 0;
             // 
             // SettingForm
             // 
@@ -172,7 +196,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(708, 363);
             this.Controls.Add(this.PanelContainer);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Dashboardlbl);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.SwitchOffButton);
@@ -183,6 +207,7 @@
             this.Load += new System.EventHandler(this.Setting_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.PanelContainer.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,8 +222,10 @@
         private System.Windows.Forms.Button DeleteUserButton;
         private System.Windows.Forms.Button AddUserButton;
         private System.Windows.Forms.Button ChangePasswordButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Dashboardlbl;
         private System.Windows.Forms.Button SwitchOffButton;
         private System.Windows.Forms.Panel PanelContainer;
+        private User_Controls.DashboardUC dashboardUC1;
+        private User_Controls.ChangePasswordUC changePasswordUC1;
     }
 }
